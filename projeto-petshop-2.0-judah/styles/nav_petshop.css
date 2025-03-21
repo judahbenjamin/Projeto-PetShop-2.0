@@ -1,0 +1,358 @@
+body {
+    background-color: #f3d643;
+}
+
+.container-fluid {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.navbar-nav {
+    margin-left: 2rem;
+}
+
+
+.navbar-nav a {
+    color: black;
+    margin: 10px;
+    font-weight: 550;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+.main_petshop {
+    display: flex;
+    margin-top: 100px;
+}
+
+.historia {
+    background-color: #073376;
+    height: 495px;
+}
+
+.open_pet {
+    padding-top: 95px;
+    text-align: justify;
+}
+
+.content {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.titulo_inicial h1 {
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.texto p {
+    padding-top: 10px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    margin-right: 305px;
+    font-size: 17px;
+}
+
+.ajustar2 {
+    padding-top: 25px;
+}
+
+.imagem_logo img {
+    height: 250px;
+    width: 250px;
+    border-radius: 35px;
+    border: 5px solid white;
+}
+
+.texto_principal h1 {
+    margin-left: 85px;
+    padding: 45px;
+    margin-top: 175px;
+    color: #073376;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 765;
+    font-size: 46px;
+}
+
+.texto_principal p {
+    margin-left: 125px;
+    margin-top: -35px;
+    text-align: justify;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.imagem_principal_left img {
+    margin-left: 100px;
+    height: 705px;
+    width: 685px;
+    margin-top: -60px;
+}
+
+.oferecimento h1 {
+    margin-top: 105px;
+    text-align: center;
+    font-size: 45px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 800;
+    color: #073376;
+}
+
+.icones {
+    background-color: #f3d643;
+    height: 290px;
+}
+
+
+.icones .alinhar_icones {
+    padding-top: 85px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 418px;
+    margin-right: 418px;
+}
+
+.alinhar_icones .icone_1,
+.icone_2,
+.icone_3 {
+    margin-top: -40px;
+    background-color: #29b2a0;
+    width: 135px;
+    height: 135px;
+    border-radius: 40px;
+}
+
+.alinhar_icones .icone_1 img,
+.icone_2 img,
+.icone_3 img {
+    width: 80px;
+    height: 80px;
+    margin: 27px;
+    transition: transform 0.5s;
+    transform: translateX(0) scale(1.2);
+}
+
+.alinhar_icones .icone_1 img:hover, img:focus {
+    transform: translateX(2px) scale(1.0);
+}
+
+.alinhar_icones .icone_2 img:hover, img:focus {
+    transform: translateX(2px) scale(1.0);
+}
+
+.alinhar_icones .icone_3 img:hover, img:focus {
+    transform: translateX(2px) scale(1.0);
+}
+
+.alinhar_icones a:hover .icone_1,
+a:hover .icone_2,
+a:hover .icone_3 {
+    background-color: white;
+}
+
+.alinhar_icones a {
+    text-decoration: none;
+}
+
+.mensagem {
+    padding-top: 10px;
+    color: #073376;
+    text-align: center;
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+}
+
+.final {
+    margin-top: 45px;
+    display: flex;
+    margin-left: 155px;
+    margin-right: 155px;
+}
+
+.carousel-inner {
+    margin-top: 20px;
+    width: 455px;
+    border-radius: 35px;
+}
+
+.text {
+    margin-left: 185px;
+    text-align: justify
+}
+
+.tit h2 {
+    font-size: 45px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    color: #073376;
+}
+
+.textao {
+    padding-top: 25px;
+    font-size: 17px;
+    font-family: "DM Sans", sans-serif;
+    color: black;
+    font-weight: 700;
+}
+
+.footer-pet {
+    margin-top: 135px;
+    background-color: #c36721;
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.footer-pet a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-pet p {
+    margin-bottom: 0;
+}
+
+.footer-pet-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+    padding-left: 60px;
+}
+
+.footer-pet-div1,
+.footer-pet-div2,
+.footer-pet-div3,
+.footer-pet-div4 {
+    display: flex;
+    width: calc(100% / 4 - 15px);
+    padding: 10px;
+}
+
+.footer-pet span {
+    font-size: 20px;
+    color: white;
+}
+
+.footer-direitos {
+    width: calc(100% - 0px);
+    background-color: #073376;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+.medias-sociais {
+    margin-top: 0px;
+}
+
+.medias-socias a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+}
+
+.medias-socias a i{
+    font-size: 20px;
+}
+
+.medias-socias a:hover{
+    color: #c36721;
+    background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+
+    .container-fluid .navbar-brand{
+        height: 10px;
+        margin-top: -50px;
+    }
+
+    .main_petshop {
+        display: block;
+        margin-left: -40px;
+    }
+
+    .texto_principal h1 {
+        font-size: 40px;
+    }
+
+    .texto_principal p {
+        font-size: 15px;
+        text-align: justify;
+        margin-left: 125px;
+        width: 400px; 
+    }
+
+    .imagem_principal_left img{
+        padding-top: 45px;
+        width: 465px;
+        height: 465px;
+    }
+
+    .content {
+        display: block;
+    }
+
+    .titulo_inicial h1{
+        font-size: 40px;
+        margin-left: -60px;
+    }
+
+    .texto p {
+        font-size: 15px;
+        margin-left: -62px;
+        margin-right: 20px;
+    }
+
+    .historia {
+        height: 750px;
+    }
+
+    .imagem_logo img {
+        margin-top: 25px;
+        width: 200px;
+        height: 200px;
+        margin-left: 35px;
+    }
+
+    .oferecimento h1 {
+        margin-left: -55px;
+    }
+
+    .icones {
+        margin-top: 75px;
+        margin-left: -260px;
+    }
+
+   .carousel-inner {
+        margin-left: -25px;
+   }
+
+   .text {
+    margin-top: 405px;
+    margin-left: -465px;
+   }
+
+   .footer-pet-div {
+    display: block;
+    margin-top: 45px;
+   }
+}
