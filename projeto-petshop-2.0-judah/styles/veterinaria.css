@@ -1,0 +1,262 @@
+body {
+    background-color: #f3d643;
+}
+
+.container-fluid {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.navbar-nav {
+    margin-left: 2rem;
+}
+
+.navbar-nav a {
+    color: black;
+    margin: 10px;
+    font-weight: 550;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+.titulo_consulta h1 {
+    margin-top: 195px;
+    text-align: center;
+    font-size: 35px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+}
+
+.ajustar_formulario {
+    width: 95%;
+    max-width: 700px; /* Reduzindo ainda mais a largura máxima */
+    margin: 20px auto;
+    background-color: #f8f8f8; /* Adicionando cor de fundo */
+    padding: 10px; /* Reduzindo o preenchimento externo */
+    border-radius: 8px; /* Adicionando borda arredondada */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adicionando sombra sutil */
+}
+
+.formulario_veterinario {
+    padding: 12px; /* Reduzindo o preenchimento interno */
+    border: 1px solid #ddd; /* Ajustando a cor da borda */
+    border-radius: 6px; /* Ajustando o raio da borda */
+}
+
+.title_form1, .title_form2, .anamnese {
+    font-size: 1.1em; /* Ajustando o tamanho da fonte dos títulos */
+    margin-bottom: 12px; /* Ajustando a margem inferior */
+}
+
+.bloco1, .bloco2 {
+    margin-bottom: 12px; /* Ajustando a margem inferior */
+}
+
+.nome, .cpf, .data_consulta, .endereco, .cidade_uf, .uf, .telefone_fix, .celular,
+.nome_animal, .especie, .raca, .sexo_animal, .idade_animal, .peso_animal,
+.pelagem, .procedencia, .historico, .alimentacao, .contactantes, .ambiente,
+.vacinacao, .vermifugacao, .quest_1, .quest_2 {
+    flex: 1 1 calc(50% - 4px); /* Ajustando a margem entre os elementos */
+    margin-bottom: 6px; /* Ajustando a margem inferior */
+}
+
+label {
+    font-size: 0.85em; /* Ajustando o tamanho da fonte dos rótulos */
+    margin-bottom: 2px; /* Ajustando a margem inferior */
+    display: block; /* Garantindo que os rótulos ocupem a largura total */
+}
+
+input[type="text"], input[type="date"], textarea {
+    padding: 3px; /* Reduzindo o preenchimento */
+    font-size: 0.85em; /* Ajustando o tamanho da fonte dos campos de entrada */
+    width: calc(100% - 8px); /* Ajustando a largura para acomodar o preenchimento e a borda */
+    box-sizing: border-box; /* Garantindo que o preenchimento e a borda sejam incluídos na largura total */
+    border: 1px solid #ddd; /* Ajustando a cor da borda */
+    border-radius: 4px; /* Ajustando o raio da borda */
+}
+
+textarea {
+    resize: vertical; /* Permitindo redimensionamento vertical */
+}
+
+.queixa {
+    margin-bottom: 12px; /* Ajustando a margem inferior */
+}
+
+.anamnese_geral_inferior {
+    margin-bottom: 12px; /* Ajustando a margem inferior */
+}
+
+.s2, .s3, .s4, .s5, .s6, .s7, .sistema1, .sistema2 {
+    font-size: 0.85em; /* Ajustando o tamanho da fonte dos rótulos */
+    margin-bottom: 2px; /* Ajustando a margem inferior */
+    display: block; /* Garantindo que os rótulos ocupem a largura total */
+}
+
+.botao {
+    margin-top: 12px; /* Ajustando a margem superior */
+    text-align: center; /* Centralizando os botões */
+}
+
+.butt, .cancelar {
+    padding: 6px 12px; /* Reduzindo o preenchimento dos botões */
+    font-size: 0.85em; /* Ajustando o tamanho da fonte dos botões */
+    margin: 0 5px; /* Adicionando margem entre os botões */
+    border: none; /* Removendo a borda dos botões */
+    border-radius: 4px; /* Ajustando o raio da borda dos botões */
+    cursor: pointer; /* Adicionando cursor de ponteiro */
+}
+
+.butt {
+    background-color: #007bff; /* Cor de fundo do botão "Enviar" */
+    color: white; /* Cor do texto do botão "Enviar" */
+}
+
+.cancelar {
+    background-color: #dc3545; /* Cor de fundo do botão "Cancelar" */
+    color: white; /* Cor do texto do botão "Cancelar" */
+}
+
+@media (max-width: 500px) { /* Ajustando o breakpoint para telas menores */
+    .nome, .cpf, .data_consulta, .endereco, .cidade_uf, .uf, .telefone_fix, .celular,
+    .nome_animal, .especie, .raca, .sexo_animal, .idade_animal, .peso_animal,
+    .pelagem, .procedencia, .historico, .alimentacao, .contactantes, .ambiente,
+    .vacinacao, .vermifugacao, .quest_1, .quest_2 {
+        flex: 1 1 100%;
+    }
+}
+
+.ajust {
+    margin-left: 10px;
+}
+
+.recomendacoes .titulo_recomendacoes h2{
+    text-align: center;
+    font-size: 30px;
+    color: #073376;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 900;
+}
+
+.lista {
+    padding-top: 50px;
+    display: flex;
+    margin-left: 400px;
+    margin-right: 400px;
+    justify-content: space-between;
+}
+
+.recomendacoes .lista_recomendacoes1, .lista_recomendacoes2 {
+    font-size: 22px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+}
+
+.lista_serviços1 ul li {
+    padding-top: 15px;
+}
+
+.lista_serviços2 ul li {
+    padding-top: 15px;
+}
+
+.texto {
+    margin-top: 90px;
+    text-align: center;
+    font-size: 17px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    margin-left: 320px;
+    margin-right: 320px;
+}
+
+.imagem_final{
+    margin: 100px;
+    text-align: center;
+}
+
+.imagem_final img {
+    margin-top: -25px;
+    width: 430px;
+    height: 310px;
+    border-radius: 35px;
+    border: 5px solid #073376;
+}
+
+.footer-pet {
+    margin-top: 135px;
+    background-color: #c36721;
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.footer-pet a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-pet p {
+    margin-bottom: 0;
+}
+
+.footer-pet-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+    padding-left: 60px;
+}
+
+.footer-pet-div1,
+.footer-pet-div2,
+.footer-pet-div3,
+.footer-pet-div4 {
+    display: flex;
+    width: calc(100% / 4 - 15px);
+    padding: 10px;
+}
+
+.footer-pet span {
+    font-size: 20px;
+    color: white;
+}
+
+.footer-direitos {
+    width: calc(100% - 0px);
+    background-color: #073376;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+.medias-sociais {
+    margin-top: 0px;
+}
+
+.medias-socias a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+}
+
+.medias-socias a i{
+    font-size: 20px;
+}
+
+.medias-socias a:hover{
+    color: #c36721;
+    background-color: white;
+}
